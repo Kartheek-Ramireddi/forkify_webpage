@@ -1,0 +1,457 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+body{
+	background-image:linear-gradient(to bottom right,#fbdb89,#f4a884,#f48982);
+	font-family: 'Nunito Sans', sans-serif;
+	font-size:14px;
+	 border-radius: 0px 0px 10px 10px;
+}
+.header{
+	background-color:#f9f5f3;
+	 border-radius:10px 10px 0 0;  
+	
+}
+.clearflex::after{
+	content:"";
+	display:block;
+	clear:both;
+	
+}
+
+.container{
+	 width:1000px;
+	 margin:10px auto 0px auto;
+     background-color:white;
+	 border-radius:20px;
+	 
+	
+
+}
+.head-logo{
+	float:left;
+	 border-radius:30px;  
+	width:20%;
+padding:20px;
+
+}
+.logoimg{
+	width:100px;
+	position:relative;
+	left:6px;
+	 border-radius:30px;  
+}
+.head-search{
+   
+       width:55%;	
+	   position:relative;
+       top:28px;
+}
+.input{
+	border-radius:20px;
+	padding:10px;
+	width:40%;
+	border:none;
+	position:relative;
+	bottom:10px;
+	left:63;
+}
+.searchicon{
+	width:15px;
+	position:relative;
+	right:5px;
+	top:4px;
+	color:white;
+	
+}
+.searchbutton{
+	width:100px;
+	border-radius:20px;
+	padding:10px;
+	position:relative;
+	left:36px;
+		color:white;
+	bottom:8px;
+	border:none;
+	background-image: linear-gradient(to bottom right,#fbdb89,#f4a884,#f48982);
+	
+}
+.header-right{
+	
+	float:right;
+	width:20%;
+    position:relative;
+    bottom:20px;
+}
+.addrecipe{	
+     text-transform:uppercase;
+	 position:relative;
+	 right:55px;
+	 top:15px;
+	
+}
+.addrecipeimage{	
+		float:left;
+		width:25px;
+		position:relative;
+		right:60px;
+		top:10px;
+}
+.bookmarkimage{
+	width:20px;
+	float:left;
+	position:relative;
+		left:40px;
+		bottom:5px;
+	
+}
+.bookmark{
+	text-transform:uppercase;
+	 position:relative;
+	 left:45px;
+	 bottom:1px;
+	 
+}
+	
+
+.sub-container{
+	width:100%;
+	float:left;
+	background-color:white;
+	 border-radius:0 0 20px 20px;
+}
+.leftside-bar{
+	
+	padding:3%;
+	width:35%;
+	float:left
+}
+.leftsideimage{
+    float:left;
+}
+.left--bar{
+	
+}
+.leftsideimage:hover{
+	background-color:#f8ba86;
+	
+}
+.images{
+	width:50px;
+	border-radius:50%;
+	position:relative;
+	right:6px
+
+}
+.imagecontent{
+	float:right;
+	position:relative;
+	bottom:40px;
+	left:10px;
+}
+.items{
+	color:#f49d94;
+	position:relative;
+	bottom:3px;
+}
+.rightside-bar{
+	float:right;
+	width:65%;
+}
+.rightside-image{
+	width:100%;
+	position:relative;
+	top:-1px;		
+}
+.rotatecontent{
+
+   
+	 transform:rotate(-3deg);  
+}
+.imagematter{   
+background-image: linear-gradient(to bottom right,#fbdb89,#f4a884,#f48982);
+     width:40%;
+     padding:15px;
+     color:white;
+     font-size:22px;
+     text-align:center;
+	 position:relative;
+	 left:29%;
+	 bottom:119px;
+	 transform:skewY(-8deg);
+	 	 
+}
+.imagematter2{
+	background-image: linear-gradient(to bottom right,#fbdb89,#f4a884,#f48982);
+     width:25%;
+     padding:10px;
+     color:white;
+     font-size:22px;
+     text-align:center;
+	 position:relative;
+	 left:35%;
+	bottom:122px;	
+    transform:skewY(-8deg);
+}
+.middle{
+	
+	background-color:#f9f5f3;
+	display:inlineblock;
+	padding:40px;
+	text-align:center;
+	position:relative;
+	bottom:105px;
+}
+
+	
+
+.clockicon{
+	text-transform:uppercase;
+	position:relative;
+	right:110px;
+	width:20px;
+}
+.minutes{
+	text-transform:uppercase;
+	position:relative;
+	right:105px;
+	bottom:5px;
+	
+	
+}
+.minusicon{
+	width:18px;
+	position:relative;
+	right:40px;
+}
+.bookmark-round{
+	position:relative;
+	left:100px;
+	width:30px;
+}
+.servings{
+	position:relative;
+	bottom:5px;
+	right:55px;
+}
+.ingredients{
+	background-color:f2efee;
+	position:relative;
+	bottom:110px;
+}
+.recipe{
+	color:red;
+	text-align:center;
+	font-size:16px;
+	padding-top:10px;
+	text-transform:uppercase;
+	
+}
+.itemsList{
+	display:inline-block;
+	position:relative;
+	right:37px;
+}
+.itemsList li{
+	    line-height:25px;
+	        width:40%;
+        float:left;
+        color:gray;
+        position:relative;
+        left:120px;
+        top:10px;
+        font-size:17px;
+        font-weight:bold;
+        line-height:20px;
+        }
+.tickmark{
+	width:18px;
+}
+.recipecontent
+{
+	position:relative;
+	left:23px;
+	bottom:17px;
+	font-size:15px;
+}
+ul{
+	list-style-type:none;
+}
+.footer{
+	  width:100%;
+	
+	   border-radius:20px;
+  }
+ 
+  .arrowbutton{
+  border:none;
+  }
+  
+  .arrowbutton{
+	  float:left;
+	  width:40%;
+	  padding:8px;
+	  border-radius:20px;
+	  background-color:#f9f5f3;
+  }
+  .arrowbutton2{
+	  float:right;
+	  border-radius:10%;
+	   width:40%;
+	  padding:8px;
+	  border-radius:20px;
+	  background-color:#f9f5f3;
+	  border:none;
+	  
+	 
+  }
+  .lastcontent{
+	 float:left; 
+  }
+  .lastone{
+	  float:left;
+      padding-top:7%;
+      font-size:18px;
+	  
+  }
+
+  .rightcontent {
+	  width:65%;
+	  position:relative;
+	 
+	  bottom:40px;
+	  float:right;
+
+	  padding:20px;
+  }
+   .leftcontent {
+     float:left;
+	 width:35%;
+	 position:relative;
+	  top:284px;
+	  padding:3%;
+ border-radius:20px;
+	
+   }
+.leftcontent img {
+    width:20px;
+   
+}	
+ .leftcontent p {
+    font-size:11px;
+	float:left;
+	position:relative;
+	left:3px;
+	top:18px;
+	text-align:center;
+    
+  }	
+.cook{
+    text-align:center;
+	color:red;
+	font-size:20px;
+	text-transform:uppercase;
+	position:relative;
+	bottom:50px;
+	
+	
+}
+
+.direction{
+	text-align:center;
+	position:relative;
+	top:50px;
+	text-transform:uppercase;
+	
+}
+
+.direction2{
+	border:none;
+	text-transform:uppercase;
+	position:relative;
+	bottom:20px;
+	
+	
+}
+b{
+	
+	position:relative;
+	bottom:4px;
+}
+.rightarrow{
+
+	
+	fill:white;
+}
+  .rightcontent img{
+   width:20px;
+   
+  }
+	.rightcontent button {
+		 
+	   width:30%;
+	  padding:11px;
+	  border-radius:20px;
+	 background-image: linear-gradient(to bottom right,#fbdb89,#f4a884,#f48982);
+	  border:none;
+	  font-size:15px;
+	  position:relative;
+	  top:21px;
+	  text-transform:uppercase;
+	  color:white;
+	}
+	.lastfotter{
+		text-align:center;
+		position:relative;
+		bottom:20px;
+		font-size:18px;
+	}
+	.lastfotter2{
+		text-align:center;
+		font-size:18px;
+		position:relative;
+		bottom:15px;
+	}
+	.arrow_left_icon{
+		position:relative;
+		top:2px;
+		right:17px;
+	}
+	.arrow_right_icon{
+		position:relative;
+		top:2px;
+		left:17px;
+	}
+	.page{
+		position:relative;
+		top:-2px;
+		right:6px;
+		color:red;
+	}
+	.page2{
+		position:relative;
+		top:-2px;
+		left:4px;
+		color:red;
+	}
+	.peopleicon{
+		width:20px;
+		position:relative;
+		right:59px;
+		bottom:1px;
+	}
+	.plusicon{
+		width:22px;
+		position:relative;
+		top:2px;
+		right:42px;
+	}
+	.bookmark-round{
+		width:28px;
+		position:relative;
+		top:2px;
+	}
+	

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="resturent.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="order">
+        <button class="orders">order<span class="count">0</span></button>
+      </div>
+      <div class="current">
+        <button class="currents">current</button>
+      </div>
+    </header>
+    <div class="bodycontainer">
+      <div class="leftcontainer">
+        <section id="menu">
+          <div id="itemsList" class="ordersremove"></div>
+        </section>
+      </div>
+      <div class="rightcontainer">
+        <div class="right">
+        <div class="table">
+          <h3>table 5| max</h3>
+        </div>
+        <div class="clear">
+          <button>clear</button>
+        </div>
+        <div class="inputvalue">
+          <input type="text" class="inputvalue1"></input>
+        </div>
+        <div class="itemsQualityPrice">
+          <table>
+            <tr>
+              <th><b class="items">items</b></th>
+              <th><b class="quality">quantity</b></th>
+              <th><b class="price">price</b></th>
+            </tr>
+            <tbody class="fooditems">
+
+            </tbody>
+          
+            <tr>
+              <td>discount</td>
+              <td><input type="text" placeholder="3%" class="discount"></td>
+              <td id="hh">xxxxx</td>
+            </tr>
+            <tr>
+              <td>tax</td>
+              <td><input type="text" placeholder="4%" class="tax"></td>
+              <td id="kk">xxx</td>
+          </table>
+
+        </div>
+    
+        <div class="fottercontent">
+          <div class="ordertickets">
+            <button class="ordertick" onclick="contentlist()">order tickets</button>
+          </div>
+          <div class="charges">
+            <button class="charg">charges</button><span id="k">xxx</span>
+          </div>
+        </div>
+      </div> 
+        <div class="footertable">
+          <table class="foottable">
+            <tr>
+              <th id="customer"><b>customername</b></th>
+              <th id="discountamount"><b>discountamount</b></th>
+               <th id="billamount"><b>billamount</b></th>
+               <th id="itemsorder"><b>itemsListbtn</b></th>
+            </tr>
+            <tbody class="tablefotterbody">
+
+            </tbody>
+
+          </table>
+        </div>
+          <div class="fotter"></div>
+            <div class="namepricequantity">
+              
+            </div>
+          </div>
+          
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <script src="resturentOrders.js"></script>
+</body>
+
+</html>

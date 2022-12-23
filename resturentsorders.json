@@ -1,0 +1,100 @@
+{
+  "posts": [
+    {
+      "name": "egg briyani",
+      "price": "120",
+      "id": 1
+    },
+    {
+      "name": "chicken broyani",
+      "price": "160",
+      "id": 2
+    },
+    {
+      "name": "egg clusterfry",
+      "price": "140",
+      "id": 3
+    },
+    {
+      "name": "egg+chicken+rice",
+      "price": "110",
+      "id": 4
+    },
+    {
+      "name": "egg clusters",
+      "price": "110",
+      "id": 5
+    },
+    {
+      "name": "egg fry",
+      "price": "60",
+      "id": 6
+    },
+    {
+      "name": "eggroll ",
+      "price": "80",
+      "id": 7
+    },
+    {
+      "name": "eggroll clusters",
+      "price": "200",
+      "id": 8
+    },
+    {
+      "name": "onion Dosa",
+      "price": "30",
+      "id": 9
+    },
+    {
+      "name": "egg pickel ",
+      "price": "100",
+      "id": 10
+    }
+  ],
+  "items": [
+    {
+      "customername": "karthik",
+      "discountamount": 2,
+      "billamount": 60,
+      "ordersitems": [
+        {
+          "name": "egg fry",
+          "price": "60",
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "customername": "jairaj",
+      "discountamount": 5,
+      "billamount": 172,
+      "ordersitems": [
+        {
+          "name": "egg fry",
+          "price": "60",
+          "quantity": 1
+        },
+        {
+          "name": "egg+chicken+rice",
+          "price": "110",
+          "quantity": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "customername": "santhosh",
+      "discountamount": 2,
+      "billamount": 81,
+      "ordersitems": [
+        {
+          "name": "eggroll ",
+          "price": "80",
+          "quantity": 1
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
